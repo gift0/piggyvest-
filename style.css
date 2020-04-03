@@ -1,0 +1,140 @@
+body{
+    background-image:
+     url(image/first.png), url(image/second.png), url(image/third.png), url(image/fourth.png);
+     background-size: 15%, 15%, 15%, 15%;
+     background-position: left -1% top -15%, right -9.3% top -1%, left -5% bottom -10%, right -7% bottom -5%;
+     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+     background-color: #062863;
+     background-attachment: fixed;
+     height:625px;
+     padding-top: 48px;
+     padding-bottom: 48px;
+     overflow: auto;
+     flex-direction: column;
+     display: flex;
+}
+.logo{
+    padding-left: 400px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 510px;
+    height: 880px;
+    border: 0px solid #E2E8F0;
+    background-color: #FFFFFF;
+    max-width:370px ;
+    line-height: 34px;
+    padding: 40px 40px 48px 40px;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    margin-left: 290px;
+}
+h1{
+    font-size:24px ;
+    color:#083e9e ;
+    text-align:center ;
+    font-weight:700 ;
+    font-family:sans-serif ;
+    line-height: 36px;
+    margin-bottom: -18px;
+   
+}
+.account{
+    font-size:14px ;
+    color:#4A5568 ;
+    text-align:center ;
+    font-family:sans-serif;
+    font-weight: 400;
+    width: 370px;
+    line-height: 21px ;
+}
+label{
+    font-size:12px ;
+    font-family: sans-serif;
+    line-height:24px ;
+    color:#4A5568 ;
+    font-weight: 700;
+    width: 368px;
+}
+input{
+    font-size:15px ;
+    font-family:- 'Segoe UI';
+    background-color:#EDF2F7 ;
+    color:#A0AEC0 ;
+    line-height:24px ;
+    height: 56px;
+    width:368px ;
+    border: 0px solid #E2E8F0;
+    padding:5px ;
+}
+select{
+    font-size:15px ;
+    font-family:- 'Segoe UI';
+    background-color:#EDF2F7 ;
+    color: #1A202C;
+    line-height:24px ;
+    height: 56px;
+    width:368px ;
+    border: 0px solid #E2E8F0;
+    padding:5px ;
+}
+option{
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    line-height: 24px;
+    color: #1A202C;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.sticker{
+    background-color: #2684FF;
+    color: #FFFFFF
+}
+.button {
+    background-color:#083E9E ;
+    color:#FFFFFF ;
+    font-family:sans-serif ;
+    font-size:14px ;
+    text-align: center;
+    height: 57px;
+    line-height: 21px;
+    font-weight: 700;
+    width: 368px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    padding: 20px 40px 16px 40px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+.button:hover {
+   background-color:#062B6F;
+   color: white;
+}
+.button:active {
+    background-color:#062B6F;
+    color: #FFFFFF;
+
+}
+p.link{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width:244px ;
+    height:29px ;
+    padding-left: 380px;
+    margin-top: 48px;
+    text-align: center;
+
+}
+p.link a{
+    color: #FFFFFF;
+    text-decoration: none solid rgb(179, 179, 179);
+
+    
+}
+P.link :hover{
+    color: #B3B3B3;
+}
